@@ -43,6 +43,21 @@
         <h2>Formulario de registro</h2>
         
         <!--tarea: averiguar la pro´piedad action que me permite cargar achivos multimedia en mi formulario-->
+        La propiedad que te permite cargar archivos multimedia (como imágenes, videos, audio o documentos) en un formulario HTML es el atributo enctype="multipart/form-data" en la etiqueta <form>, combinado con un campo <input type="file">.
+
+            Ejemplo completo:
+            
+            <form action="subir.php" method="POST" enctype="multipart/form-data">
+              <label for="archivo">Selecciona un archivo:</label>
+              <input type="file" id="archivo" name="archivo">
+              <button type="submit">Subir</button>
+            </form>
+            
+            Explicación:
+            
+            <input type="file">: crea el campo que permite al usuario elegir un archivo.
+            
+            enctype="multipart/form-data": obligatorio para que los archivos se envíen correctamente al servidor.
 
         <form action="" method="post">
             <label>

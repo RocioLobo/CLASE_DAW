@@ -21,8 +21,61 @@
     <section>
         <!--el boton es el elemento que captura las interacciones  del usuario y dispara
         (ejecuta) una accion,en este caso ejecuta un metodo al estar dentro de un formulario-->
+
         <button>hola soy boton</button>
     </section>
+
+    <!--ATRIBUTOS BUTTONS-->
+
+    Los atributos de un botón (<button>) en HTML son propiedades que puedes usar para controlar su 
+    comportamiento, estilo y funcionalidad.
+
+    `Atributos básicos del <button>`:
+        
+        1. type: Especifica el tipo de botón.
+        
+        - button: botón común (no envía formulario).
+        
+        - submit: envía el formulario.
+        
+        . reset: reinicia los campos del formulario.
+        
+        Ejemplo: <button type="submit">Enviar</button>
+        
+        
+        
+        2. disabled: Desactiva el botón (no se puede hacer clic).
+        
+        Ejemplo: <button disabled>Desactivado</button>
+        
+        
+        
+        3. name: Asigna un nombre al botón (útil en formularios).
+        
+        Ejemplo: <button name="accion">Aceptar</button>
+        
+        
+        
+        4. value: Valor que se envía con el formulario si el botón tiene type="submit".
+        
+        Ejemplo: <button type="submit" value="guardar">Guardar</button>
+        
+        
+        
+        5. autofocus: El botón obtiene el enfoque automáticamente cuando se carga la página.
+        
+        Ejemplo: <button autofocus>Empieza aquí</button>
+        
+        
+        
+        6. form: Asocia el botón con un formulario específico (si no está dentro del <form>).
+        
+        Ejemplo: <button form="miFormulario">Enviar</button>
+        
+        
+        
+        7. formaction, formenctype, formmethod, formtarget, etc.: Atributos relacionados con formularios, aplican principalmente a botones de tipo submit.
+        
 
 
     <script src="./js/script.js"></script>
